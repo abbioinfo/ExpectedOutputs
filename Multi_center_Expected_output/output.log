@@ -1,0 +1,77 @@
+**** Starting Cyanno ****
+[Arguments]:
+Handgated file: example/Handgated.csv
+Live cells file: example/LivecellsTraining.csv
+cell count: 20
+Relevant Markers: ['0', '1', '2', '3', '4', '5', '6', '7']
+filter cells: <function filterCells at 0x1a240d97b8>
+Find ungated cells: True
+
+Now loading handgated cells for model training
+Achieved 99.31306192544702% of cells in Cell Type B_cells with 6 / 486 landmark candidates
+Achieved 95.26485788113696% of cells in Cell Type CD4_Tcells with 8 / 514 landmark candidates
+Achieved 95.48003204027921% of cells in Cell Type CD8_Tcells with 13 / 478 landmark candidates
+Achieved 99.13601957336188% of cells in Cell Type Monocytes with 3 / 604 landmark candidates
+LandMark cells saved as obj object 
+Celltype, Number_of_landmark_cells
+B_cells,6
+CD4_Tcells,8
+CD8_Tcells,13
+Monocytes,3
+The %age of True Nearest Neighbour for modelling for the cell type B_cells is 99.17165023436237% with TP 24543 cells
+For Celltype: 1 Model saved
+The %age of True Nearest Neighbour for modelling for the cell type CD4_Tcells is 95.37702206832395% with TP 36909 cells
+For Celltype: 2 Model saved
+The %age of True Nearest Neighbour for modelling for the cell type CD8_Tcells is 95.41834492859759% with TP 20847 cells
+For Celltype: 3 Model saved
+The %age of True Nearest Neighbour for modelling for the cell type Monocytes is 99.14671940627167% with TP 97255 cells
+For Celltype: 4 Model saved
+	B_cells	CD4_Tcells	CD8_Tcells	Monocytes	Unknown	CountCTS
+B_cells	35.22901804297587	2.7631446739489287	1.3263094434954856	17.787474701077986	42.89405313850173	CountCTS
+CD4_Tcells	0.5634936606963171	43.69325109798397	3.5490630142175608	10.1653782865531	42.02881394054906	CountCTS
+CD8_Tcells	0.3997533859708438	7.43421968536823	41.460989240468564	2.7028102066386905	48.00222748155367	CountCTS
+Monocytes	3.9903290234416064	4.881740775780511	1.5678545148743825	51.11689267318407	38.44318301271944	CountCTS
+Celltype	XGboost	MLP	SVM	CellCount	Time
+B_cells	2.192406	N/A	N/A	41800.0	Time
+CD4_Tcells	4.210324	N/A	N/A	50683.0	Time
+CD8_Tcells	3.188014	N/A	N/A	30168.0	Time
+Monocytes	6.802167	N/A	N/A	114156.0	Time
+Celltype	XGBoost	F1stats
+B_cells	0.9770786862493896	F1stats
+CD4_Tcells	0.993548582493788	F1stats
+CD8_Tcells	0.9951294620214759	F1stats
+Monocytes	0.961974634328001	F1stats
+*** Session saved ****
+
+ annotating sample: sample1
+Prediction value: 0.9642760827744916& F1 score is 0.9651345399786312& P-value : NA
+ annotating sample: sample2
+Prediction value: 0.9660200198544011& F1 score is 0.9667532272093243& P-value : NA
+ annotating sample: sample3
+Prediction value: 0.9701771715600765& F1 score is 0.9706705454266706& P-value : NA
+ annotating sample: sample4
+Prediction value: 0.9660081597595018& F1 score is 0.9667545741437585& P-value : NA
+ annotating sample: sample5
+Prediction value: 0.9698437788680639& F1 score is 0.9704645983999907& P-value : NA
+ annotating sample: sample6
+Prediction value: 0.9611747890382343& F1 score is 0.9621352336420878& P-value : NA
+ annotating sample: sample7
+Prediction value: 0.969011173351706& F1 score is 0.9695988416547959& P-value : NA
+ annotating sample: sample8
+Prediction value: 0.9691422428783711& F1 score is 0.9697306243148239& P-value : NA
+ annotating sample: sample9
+Prediction value: 0.9908837533387528& F1 score is 0.9908974384470103& P-value : NA
+ annotating sample: sample16
+Prediction value: 0.9875574552800305& F1 score is 0.9876057373791991& P-value : NA
+ annotating sample: sample10
+Prediction value: 0.9917302115777038& F1 score is 0.9917402378245603& P-value : NA
+ annotating sample: sample11
+Prediction value: 0.9205651037905545& F1 score is 0.9214495830512057& P-value : NA
+ annotating sample: sample12
+Prediction value: 0.9302714910687493& F1 score is 0.9314834128816311& P-value : NA
+ annotating sample: sample13
+Prediction value: 0.9771836978234363& F1 score is 0.9772638260147181& P-value : NA
+ annotating sample: sample14
+Prediction value: 0.9321766798241006& F1 score is 0.9326762961425697& P-value : NA
+ annotating sample: sample15
+Prediction value: 0.9379823305513846& F1 score is 0.9391291478015897& P-value : NA
